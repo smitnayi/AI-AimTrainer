@@ -1,0 +1,59 @@
+# ================================
+# Unity Project .gitignore
+# ================================
+
+# Unity temporary & cache folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Aa]uto[Ff]low/
+
+# Asset meta data should only be ignored when corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio & IDE files
+.vs/
+.vsconfig
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash reports
+sysinfo.txt
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Builds & Binaries
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+
+# Nested legacy demo folder
+AimTrainerDemo1/
